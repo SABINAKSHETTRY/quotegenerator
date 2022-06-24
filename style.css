@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #6094b6;
+}
+.wrapper{
+    width:600px;
+    background-color: rgb(214, 202, 202);
+    border-radius: 15px;
+    padding:30px;
+}
+.wrapper header{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+
+}
+.wrapper .content{
+    margin: 34px ;
+}
+.content .quote-area{
+    display: flex;
+    justify-content: center;
+}
+.quote-area{
+    font-size: 15px;
+}
+.quote-area i:first-child{
+    margin:3px 10px 0 0;
+}
+.quote-area i:last-child{
+    margin:0 0 3px 10px ;
+    display: flex;
+    align-items: flex-end;
+}
+.quote-area .quote{
+    font-size: 22px;
+    text-align: center;
+    word-break :break-all;
+}
+.content .author{
+    display :flex;
+    margin-top: 20px;
+    justify-content: flex-end;
+    font-style: italic;
+
+}
+.author span:first-child{
+    margin:-7px 5px 0 0;
+    font-family:monospace;
+
+}
+.buttons{
+    border-top: 0.5px solid rgb(3, 3, 33);
+}
+
+.buttons .features{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.features ul{
+    display: flex;
+
+}
+.features ul li{
+    list-style: none;
+    margin: 0 2px;
+    height: 48px;
+    width: 48px;
+    border: 2px solid whitesmoke;
+    border-radius:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+
+}
+.features ul li:hover{
+    color:aliceblue;
+    background:#6094b6;
+    transition:all 1.5s ease;
+
+}
+.features button{
+    border: none;
+    outline: none;
+    background-color:#6094b6;
+    color:white;
+    padding: 13px 22px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-style: normal 16px;
+
+}
+
+button.loading{
+    opacity: 0.7;
+    pointer-events: none;
+}
+
+    
+
